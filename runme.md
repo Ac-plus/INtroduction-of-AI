@@ -8,6 +8,7 @@ PS D:\pythonProject_VS> & D:/python_3.9.1/python.exe d:/pythonProject_VS/Soft_Cu
 ```
 python main.py
 ```
+如果你使用的是PyCharm，直接点击运行即可。
 ## 第二步
 依次输入features。例如：
 ```
