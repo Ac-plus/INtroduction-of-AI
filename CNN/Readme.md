@@ -54,8 +54,8 @@ LeNet-5模型是Yann LeCun教授在论文Gradient-Based Learning Applied to Docu
 
 表3 训练数据
 
-|指标|	Training time|	Step lossAccuracy	|Value loss	|Value accuracy |
-|---|---|---|---|---|
+|指标|	Training time|	Step loss|Accuracy	|Value loss	|Value accuracy |
+|---|---|---|---|---|---|
 |30组的平均值|	19.13s|	0.0384|	0.9890	| 0.0902	|0.9832 |
 
 分析如下：
