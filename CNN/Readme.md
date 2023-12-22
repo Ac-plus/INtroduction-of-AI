@@ -4,6 +4,8 @@
 LeNet-5模型是Yann LeCun教授在论文Gradient-Based Learning Applied to Document Recognition中提出的，它是第一个成功应用于数字识别问题的卷积神经网络，如图1-1所示。在MNIST数据集上，LeNet-5模型可以达到大约99.2%的正确率。
 本实验需要使用LeNet-5模型，通过编写代码并导入MNIST数据集进行训练和测试，实现对手写数字的识别，并分析实验结果的正确性。
 
+![image](https://github.com/Ac-plus/INtroduction-of-AI/assets/104805387/0ba61103-9750-43fc-8530-d201dcfe98b5)
+
 ## 二、实验原理与步骤
 
 作为一种分层的卷积神经网络结构，LeNet-5的层次结构如表1所示。其中一共有7层（不包含输入），每层都包含可训练参数。为了使得潜在的明显特征（如笔画断点或角）能够出现在最高层特征检测子感受野（receptive field）的中心，输入图像大小应为 $32\times 32$ ，比MNIST数据集的图片要稍大一些。因此在训练整个网络之前，需要对 $28\times 28$ 的图像的周围填充0。
